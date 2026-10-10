@@ -192,3 +192,6 @@ html[lang="es"] .hero.poster h1{font-size:clamp(38px,6.4vw,80px)}
 /* Simpler home page: three steps, short contact */
 .steps ol{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
 .quote .contact{margin-top:22px}
+
+/* Inner pages: night contact block without the palm row */
+.page .quote.dark-night{padding-bottom:clamp(32px,5vw,56px)}
